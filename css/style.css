@@ -3,12 +3,33 @@
 .nav {
 	background-color: #444444;
 	color: white;
-	/*padding-top:10px;*/
+	opacity: .7;
 	padding-left:10px;
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Montserrat', sans-serif;\;
 	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+.nav_container {
+	width: 100%;
+}
+
+
+.nav_list {
+	background-color: #444444;
+	color: white;
+	padding-left:10px;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;\;
+
+}
+
+.navbar_height {
+	height: 60px;
 }
 
 
@@ -20,6 +41,10 @@
     padding: 0;
     overflow: hidden;
     vertical-align: center;
+}
+
+#body_div {
+	margin-top: 60px;
 }
 
 #lab_link {
@@ -55,14 +80,18 @@ p {
 	font-family: "Montserrat", sans-serif;
 }
 
+a {
+	color: black;
+}
+
 
 /* Header Image and Text */
 
 .header {
-	background-color: #1e1e1e;
-	color: white;
+	/*background-color: #1e1e1e;*/
+	color: black;
 	padding: 10px;
-	margin: 15px ;
+	margin-left: 25px ;
 	font-family: "Montserrat";
 	font-weight:400;
 
@@ -86,6 +115,13 @@ p {
 }
 
 
+.name {
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+
 /* Photos Section */
 
 .photo:hover {
@@ -103,24 +139,37 @@ p {
 }
 
 .sm-text:hover {
-	background-color:#666666;
+	background-color:white;
 	color: black;
-
 }
 
-.sm-no-hover:hover {
-	background-color: #cecece;
+
+
+.half-sm-text-white:hover {
+	background-color: white;
 }
+
+
 
 .sm-text {
 	color: black;
 	display: block;
-	padding: 10px 10px 10px 30px;
+	padding: 10px 0px 0px 30px;
 	font-size: 15px;
 	font-family: "Montserrat";
+	font-weight: 300;
 	margin: 15px;
-	background-color: #cecece;
 	border-radius: 3px;
+}
+
+h1 {
+	color: black;
+	display: block;
+	padding: 10px 10px 10px 30px;
+	font-size: 50px;
+	font-family: "Montserrat";
+	font-weight:300;
+	margin: 15px;
 }
 
 .half-sm-text {
@@ -135,4 +184,14 @@ p {
 	background-color: #cecece;
 	border-radius: 3px;
 
+}
+
+.half-sm-text-white {
+	color: black;
+	width: 45%;
+	display: inline-block;
+	padding: 10px 10px 10px 30px;
+	font-size: 15px;
+	font-family: "Montserrat";
+	font-weight:300;
 }
