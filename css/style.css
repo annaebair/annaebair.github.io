@@ -38,7 +38,6 @@
 	margin-bottom: 10px;
     list-style-type: none;
     margin: 0px;
-    padding: 0;
     overflow: hidden;
     vertical-align: center;
 }
@@ -47,16 +46,14 @@
 	margin-top: 60px;
 }
 
-#lab_link {
-	color:black;
-	font-size: 15px;
+.link {
+	text-decoration: underline;
 }
 
 #degree {
 	font-size: 15px;
-	font-weight: 400;
+	font-weight: 300;
 }
-
 
 .nav_li {
     float: left;
@@ -88,7 +85,6 @@ a {
 /* Header Image and Text */
 
 .header {
-	/*background-color: #1e1e1e;*/
 	color: black;
 	padding: 10px;
 	margin-left: 25px ;
@@ -122,35 +118,6 @@ a {
 }
 
 
-/* Photos Section */
-
-.photo:hover {
-	opacity: 0.85;
-}
-
-.col-xs-3 {
-	padding:14px;
-}
-
-/* Social Media Link Formatting */
-
-.sm-link {
-	background-color:#666666;
-}
-
-.sm-text:hover {
-	background-color:white;
-	color: black;
-}
-
-
-
-.half-sm-text-white:hover {
-	background-color: white;
-}
-
-
-
 .sm-text {
 	color: black;
 	display: block;
@@ -162,6 +129,7 @@ a {
 	border-radius: 3px;
 }
 
+
 h1 {
 	color: black;
 	display: block;
@@ -172,25 +140,13 @@ h1 {
 	margin: 15px;
 }
 
+
 .half-sm-text {
 	color: black;
 	width: 45%;
 	display: inline-block;
 	padding: 10px 10px 10px 30px;
-	font-size: 15px;
-	font-family: "Montserrat";
-	font-weight:300;
 	margin: 15px;
-	background-color: #cecece;
-	border-radius: 3px;
-
-}
-
-.half-sm-text-white {
-	color: black;
-	width: 45%;
-	display: inline-block;
-	padding: 10px 10px 10px 30px;
 	font-size: 15px;
 	font-family: "Montserrat";
 	font-weight:300;
