@@ -105,7 +105,7 @@ a {
 }
 
 .bio {
-	width: 50%;
+	/*width: 50%;*/
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -140,10 +140,12 @@ h1 {
 	margin: 15px;
 }
 
+.half-sm-text-container {
 
+}
 .half-sm-text {
 	color: black;
-	width: 45%;
+	width: fit-content;
 	display: inline-block;
 	padding: 10px 10px 10px 30px;
 	margin: 15px;
