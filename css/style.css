@@ -4,9 +4,9 @@
 	background-color: #444444;
 	color: white;
 	opacity: .7;
-	padding-left:10px;
-	margin: 0px;
-	padding: 0px;
+	/*padding-left:10px;*/
+	/*margin: 0px;*/
+	/*padding: 0px;*/
 	font-family: 'Montserrat', sans-serif;\;
 	width: 100%;
 	position: fixed;
@@ -14,7 +14,8 @@
 }
 
 .nav_container {
-	width: 100%;
+	position: fixed;
+	width: 1000px;
 }
 
 
