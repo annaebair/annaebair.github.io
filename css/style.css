@@ -4,16 +4,16 @@
 	background-color: #444444;
 	color: white;
 	opacity: .7;
-	font-family: 'Montserrat', sans-serif;\;
-	/*width: 100%;*/
+	font-family: 'Montserrat', sans-serif;
 	position: fixed;
 	z-index: 100;
-}
-
-.nav_container {
-	position: fixed;
 	width: 1000px;
 }
+
+/* .nav_container {
+	position: fixed;
+
+} */
 
 
 .nav_list {
@@ -46,6 +46,12 @@
 
 .link {
 	text-decoration: underline;
+}
+
+.content {
+  max-width: 1000px;
+  margin: auto;
+  background-color: white;
 }
 
 #degree {
@@ -91,7 +97,7 @@ a {
 
 }
 
-.profile_pic {
+.profile_pic_container {
 	width: 100%;
 	display: inline-block;
 	font-family: "Montserrat";
@@ -103,14 +109,14 @@ a {
 }
 
 .im_style {
-	width:300px; 
+	width:300px;
 	margin-left: 35px;
 	/*vertical-align: middle;*/
 }
 
 #im_wide {
-	width:400px; 
-	vertical-align: middle; 
+	width:400px;
+	vertical-align: middle;
 	margin-left: 35px;
 }
 
@@ -132,10 +138,10 @@ a {
 	color: black;
 	display: block;
 	padding: 10px 0px 0px 30px;
+	margin: 15px;
 	font-size: 15px;
 	font-family: "Montserrat";
 	font-weight: 300;
-	margin: 15px;
 	border-radius: 3px;
 }
 
@@ -150,18 +156,16 @@ h1 {
 	margin: 15px;
 }
 
-.half-sm-text-container {
 
-}
 .half-sm-text {
 	color: black;
-	width: fit-content;
 	display: inline-block;
 	padding: 10px 10px 10px 30px;
 	margin: 15px;
 	font-size: 15px;
 	font-family: "Montserrat";
 	font-weight:300;
+	width: fit-content;
 }
 
 @media (max-width:620px) {
@@ -169,7 +173,7 @@ h1 {
   	font-size: 15px;
   	padding: 6px;
   }
-  .nav_container {
+  .nav {
   	width: 100vw;
   }
 }
