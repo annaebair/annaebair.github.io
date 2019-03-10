@@ -37,10 +37,10 @@
 .nav_ul {
 	margin-top: 10px;
 	margin-bottom: 10px;
-    list-style-type: none;
-    margin: 0px;
-    overflow: hidden;
-    vertical-align: center;
+  list-style-type: none;
+  margin: 0px;
+  overflow: hidden;
+  vertical-align: center;
 }
 
 #body_div {
@@ -80,8 +80,7 @@
     font-size: 20px;
 }
 
-.nav_li a:hover {
-    /* background-color: #666666; */
+.nav_li a:hover {]
 		text-decoration: underline;
 }
 
@@ -194,6 +193,23 @@ h1 {
 	.im_style {
 		width: 85vw;
 	}
+
+	#profile_pic {
+		padding: 10px;
+		display: inline-block;
+	}
+
+	/* .im_style {
+		width:300px;
+		/* margin-left: 35px; */
+		/*vertical-align: middle;*/
+
+
+	#im_wide {
+		/* width:400px; */
+		vertical-align: middle;
+		/* margin-left: 35px; */
+	}
 }
 
 @media (max-width: 380px) {
@@ -204,4 +220,21 @@ h1 {
 	#im_wide {
 		width: 75vw;
 	}
+
+	#profile_pic {
+		padding: 10px;
+		display: inline-block;
+	}
+
+	/* .im_style {
+		width:300px;
+		/* margin-left: 35px; */
+		/*vertical-align: middle;*/
+
+
+	/* #im_wide {
+		width:400px;
+		vertical-align: middle;
+		/* margin-left: 35px; */
+
 }
