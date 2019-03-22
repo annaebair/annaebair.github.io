@@ -1,33 +1,14 @@
 /* Navigation bar */
 
 .nav {
-	/* background-color: #444444; */
 	background-color: white;
 	color: black;
-	/* opacity: .7; */
 	font-family: 'Montserrat', sans-serif;
 	position: fixed;
 	z-index: 100;
 	width: 1000px;
 }
 
-/* .nav_container {
-	position: fixed;
-
-} */
-
-
-.nav_list {
-	/* background-color: #444444; */
-	background-color: white;
-	/* color: white; */
-	color: black;
-	padding-left:10px;
-	margin: 0px;
-	padding: 0px;
-	font-family: 'Montserrat', sans-serif;
-
-}
 
 .navbar_height {
 	height: 60px;
@@ -56,8 +37,7 @@
 }
 
 .content {
-  /* max-width: 900px; */
-	max-width: 95vw;
+	max-width: 900px;
   margin: auto;
   background-color: white;
 }
@@ -119,12 +99,10 @@ a {
 .im_style {
 	width:300px;
 	margin-left: 35px;
-	/*vertical-align: middle;*/
 }
 
 
 .bio {
-	/*width: 50%;*/
 	display: inline-block;
 	vertical-align: middle;
 }
