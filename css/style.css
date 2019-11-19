@@ -82,7 +82,14 @@ a {
 	margin-left: 25px ;
 	font-family: "Montserrat";
 	font-weight:400;
+}
 
+.news {
+	color: black;
+	padding: 10px;
+	margin-left: 30px ;
+	font-family: "Montserrat";
+	font-weight:400;
 }
 
 .profile_pic_container {
@@ -121,6 +128,17 @@ a {
 	padding: 10px 0px 0px 30px;
 	margin: 15px;
 	font-size: 15px;
+	font-family: "Montserrat";
+	font-weight: 300;
+	border-radius: 3px;
+}
+
+.med-text {
+	color: black;
+	display: block;
+	padding: 10px 0px 0px 30px;
+	margin: 15px;
+	font-size: 20px;
 	font-family: "Montserrat";
 	font-weight: 300;
 	border-radius: 3px;
