@@ -196,3 +196,20 @@ h1 {
 		margin-left: 0px ;
 	}
 }
+
+@media (max-width:400px) {
+
+  .nav {
+  	width: 100vw;
+  }
+
+	.im_style {
+		width:200px;
+		margin-left: 35px;
+	}
+
+	.nav_li a {
+		font-size: 15px;
+	}
+
+}
